@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <vue-mahjong-hand msg="m1,p1,s1,E,S,W,N,P,F,C" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import VueMahjongHand from "./components/VueMahjongHand.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld
+    VueMahjongHand
   }
 });
 </script>
